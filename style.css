@@ -5,12 +5,26 @@ html {
     font-weight: 400px;
 }
 
+body {
+    min-height:100vh; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    display: grid;
+    place-items: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
 h2, h4, p {
     margin: 0;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
+}
+
+#top-section {
+    background-color: white;
 }
 
 #top-section h2 {
